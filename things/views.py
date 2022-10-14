@@ -2,5 +2,5 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def home(request):
-    response = HttpResponse("Things.")
+    response = HttpResponse("home.html")
     return response
